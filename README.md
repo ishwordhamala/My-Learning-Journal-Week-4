@@ -1,6 +1,2 @@
-# My-Learning-Journal-Week
-This week I learned how to use different types of JavaScript APIs to make my website more dynamic.
-I used the Storage API to save new journal entries into the browser using localStorage, so that even after refreshing the page, my notes stay visible.
-I also used the Browser Validation API to check if the form is filled correctly before saving an entry. It shows an error message if a field is empty or too short.
-Finally, I connected a Third-Party API to my homepage which fetches a motivational quote each time I click the “Load Quote” button.
-These features made my learning journal feel more interactive and realistic.
+# My-Learning-Journal-Week 5 
+I discovered this week how to use a JSON file to link my PWA to a Python backend. I saved reflections into reflections using Python rather than just keeping data in the browser like localStorage.json, which functions more like a little database. The file is read by my Python script, which then automatically updates it with fresh reflections. Additionally, I updated my diary page with a new feature that loads the JSON file, displays all saved reflections, and enables weekly filtering. Whereas GitHub only displays the version I submit since it is unable to execute Python, locally I can view the most current data I store using Python. All in all, this week improved my comprehension of the relationship between front-end and back-end data.
